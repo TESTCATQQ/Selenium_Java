@@ -16,7 +16,7 @@ public class xuanting {
 		
 		Actions action = new Actions(driver);
 		//action.clickAndHold(driver.findElement(By.className("pf"))).perform();
-		action.clickAndHold(driver.findElement(By.linkText("…Ë÷√"))).perform();
+		action.clickAndHold(driver.findElement(By.linkText("…Ë÷√"))).perform();//…Ë÷√
 		Thread.sleep(5000);
 		driver.findElement(By.className("setpref")).click();
 	}
