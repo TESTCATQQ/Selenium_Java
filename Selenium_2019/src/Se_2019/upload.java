@@ -20,5 +20,23 @@ public class upload {
 		Thread.sleep(2000);
 		//写信
 		driver.findElement(By.id("composebtn")).click();
+		Thread.sleep(2000);
+		
+		driver.switchTo().frame(driver.findElement(By.name("mainFrame")));
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//*[@id=\"subject\"]")).sendKeys("test");
+		Thread.sleep(2000);
+		driver.findElement(By.name("subject")).sendKeys("name");
+		Thread.sleep(2000);
+		driver.findElement(By.id("subject")).sendKeys("name");
+		//上传
+		driver.findElement(By.name("UploadFile")).sendKeys("G:\\ISTQB\\ISTQB认证初级大纲.pdf");
+		
+		//取消frame
+		driver.switchTo().defaultContent();
+		driver.findElement(By.id("readmailbtn_link")).click();
+		
+		//driver.switchTo().frame(driver.findElement(By.id("leftFrame")));
+		//driver.findElement(By.id("composeExitAlert_QMDialog_btn_delete_save")).click();
 	}
 }
