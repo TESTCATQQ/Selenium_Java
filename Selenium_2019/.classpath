@@ -15,5 +15,6 @@
 	<classpathentry kind="lib" path="G:/myGit/Selenium_Java/my_env/testng-6.9.6.jar"/>
 	<classpathentry kind="lib" path="G:/myGit/Selenium_Java/my_env/velocity-dep-1.4.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
