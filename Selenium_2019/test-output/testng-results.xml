@@ -1,44 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="23" started-at="2019-03-18T16:14:03Z" finished-at="2019-03-18T16:14:03Z">
+  <suite name="Default suite" duration-ms="30836" started-at="2019-03-18T16:27:21Z" finished-at="2019-03-18T16:27:52Z">
     <groups>
-      <group name="smoke">
-        <method signature="test_ng_01.test_01(java.lang.String)[pri:0, instance:Se_2019.test_ng_01@d2cc05a]" name="test_01" class="Se_2019.test_ng_01"/>
-        <method signature="test_ng_01.test_02(java.lang.String, java.lang.String)[pri:0, instance:Se_2019.test_ng_01@d2cc05a]" name="test_02" class="Se_2019.test_ng_01"/>
-      </group> <!-- smoke -->
     </groups>
-    <test name="Test" duration-ms="23" started-at="2019-03-18T16:14:03Z" finished-at="2019-03-18T16:14:03Z">
-      <class name="Se_2019.test_ng_01">
-        <test-method status="PASS" signature="test_01(java.lang.String)[pri:0, instance:Se_2019.test_ng_01@d2cc05a]" name="test_01" duration-ms="9" started-at="2019-03-19T00:14:03Z" finished-at="2019-03-19T00:14:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="30836" started-at="2019-03-18T16:27:21Z" finished-at="2019-03-18T16:27:52Z">
+      <class name="Se_2019.test_ng_02">
+        <test-method status="PASS" signature="bef()[pri:0, instance:Se_2019.test_ng_02@4f933fd1]" name="bef" is-config="true" duration-ms="25403" started-at="2019-03-19T00:27:21Z" finished-at="2019-03-19T00:27:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_01 -->
-        <test-method status="PASS" signature="test_02(java.lang.String, java.lang.String)[pri:0, instance:Se_2019.test_ng_01@d2cc05a]" name="test_02" duration-ms="1" started-at="2019-03-19T00:14:03Z" finished-at="2019-03-19T00:14:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Jun]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- bef -->
+        <test-method status="PASS" signature="test_02()[pri:0, instance:Se_2019.test_ng_02@4f933fd1]" name="test_02" duration-ms="4779" started-at="2019-03-19T00:27:47Z" finished-at="2019-03-19T00:27:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_02 -->
-      </class> <!-- Se_2019.test_ng_01 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        <test-method status="PASS" signature="aft()[pri:0, instance:Se_2019.test_ng_02@4f933fd1]" name="aft" is-config="true" duration-ms="644" started-at="2019-03-19T00:27:51Z" finished-at="2019-03-19T00:27:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aft -->
+      </class> <!-- Se_2019.test_ng_02 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
