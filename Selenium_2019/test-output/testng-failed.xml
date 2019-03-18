@@ -2,17 +2,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Test(failed)">
-    <groups>
-      <run>
-        <include name="smoke"/>
-      </run>
-    </groups>
     <classes>
-      <class name="Se_2019.test_ng_01">
+      <class name="Se_2019.test_ng_dataprovier">
         <methods>
-          <include name="test_01"/>
+          <include name="testdata" invocation-numbers="1"/>
         </methods>
-      </class> <!-- Se_2019.test_ng_01 -->
+      </class> <!-- Se_2019.test_ng_dataprovier -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
