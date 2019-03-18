@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="30" started-at="2019-03-18T15:00:20Z" finished-at="2019-03-18T15:00:20Z">
+  <suite name="Suite" duration-ms="24" started-at="2019-03-18T15:11:11Z" finished-at="2019-03-18T15:11:11Z">
     <groups>
+      <group name="smoke">
+        <method signature="test_ng_01.test_01()[pri:0, instance:Se_2019.test_ng_01@58651fd0]" name="test_01" class="Se_2019.test_ng_01"/>
+        <method signature="test_ng_01.test_02()[pri:0, instance:Se_2019.test_ng_01@58651fd0]" name="test_02" class="Se_2019.test_ng_01"/>
+      </group> <!-- smoke -->
     </groups>
-    <test name="Test" duration-ms="30" started-at="2019-03-18T15:00:20Z" finished-at="2019-03-18T15:00:20Z">
+    <test name="Test" duration-ms="24" started-at="2019-03-18T15:11:11Z" finished-at="2019-03-18T15:11:11Z">
       <class name="Se_2019.test_ng_01">
-        <test-method status="PASS" signature="bef()[pri:0, instance:Se_2019.test_ng_01@62ee68d8]" name="bef" is-config="true" duration-ms="8" started-at="2019-03-18T23:00:20Z" finished-at="2019-03-18T23:00:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bef -->
-        <test-method status="FAIL" signature="test_01()[pri:0, instance:Se_2019.test_ng_01@62ee68d8]" name="test_01" duration-ms="6" started-at="2019-03-18T23:00:20Z" finished-at="2019-03-18T23:00:20Z">
+        <test-method status="FAIL" signature="test_01()[pri:0, instance:Se_2019.test_ng_01@58651fd0]" name="test_01" duration-ms="9" started-at="2019-03-18T23:11:11Z" finished-at="2019-03-18T23:11:11Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [3] but found [2]]]>
@@ -54,14 +54,10 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_01 -->
-        <test-method status="PASS" signature="test_02()[pri:0, instance:Se_2019.test_ng_01@62ee68d8]" name="test_02" duration-ms="2" started-at="2019-03-18T23:00:20Z" finished-at="2019-03-18T23:00:20Z">
+        <test-method status="PASS" signature="test_02()[pri:0, instance:Se_2019.test_ng_01@58651fd0]" name="test_02" duration-ms="1" started-at="2019-03-18T23:11:11Z" finished-at="2019-03-18T23:11:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_02 -->
-        <test-method status="PASS" signature="aft()[pri:0, instance:Se_2019.test_ng_01@62ee68d8]" name="aft" is-config="true" duration-ms="1" started-at="2019-03-18T23:00:20Z" finished-at="2019-03-18T23:00:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aft -->
       </class> <!-- Se_2019.test_ng_01 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

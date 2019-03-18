@@ -2,6 +2,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
+  	<groups>
+  		<run>
+  		<include name="smoke">
+  		</include>
+  		</run>
+  	</groups>
     <classes>
       <class name="Se_2019.test_ng_01"/>
     </classes>

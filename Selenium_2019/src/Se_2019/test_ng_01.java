@@ -12,14 +12,14 @@ public class test_ng_01 {
 		System.out.println("BeforeTest");
 	}
 	
-	@Test
+	@Test(groups= {"smoke"})
 	public void test_01() {
 		Assert.assertEquals("2", "3");
 	}
 	
-	@Test
+	@Test(groups= {"smoke"})
 	public void test_02() {
-		Assert.assertEquals("2", "2");
+		Assert.assertEquals("2", "2" ,"2.equals");
 	}
 	
 	@AfterTest
